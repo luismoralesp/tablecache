@@ -6,7 +6,7 @@ Memory manager using cache for JTable ImageRenderer
 Just define an model for your JTable
 
 *For example:*
-```
+```java
 import javax.swing.table.DefaultTableModel;
 import tablecache.ImageRenderer;
 
@@ -17,7 +17,7 @@ class MyForm extends javax.swing.JFrame {
     jTable1.setModel(table);
 ```
 then asign the ImageRender and set your row height 
-```
+```java
     jTable1.getColumnModel().getColumn(1).setCellRenderer(new ImageRenderer());
     jTable1.setRowHeight(100);
     setLocationRelativeTo(this);
@@ -26,7 +26,7 @@ then asign the ImageRender and set your row height
 
 For asign an image for you table just need set the image path, **do not asign an ImageIcon**.
 
-```
+```java
 table.addRow(new Object[]{
     (0),
     "Path\\TO\\YOUR\\IMAGE\\"
