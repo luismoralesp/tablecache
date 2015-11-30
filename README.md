@@ -33,5 +33,5 @@ table.addRow(new Object[]{
 });
 ```
 ##Notes##
-Make sure that the image paths are distincts, because they are used as key in the cache manage.
-Make sure that the image file exist while table is used, else just will show an black box in the cell.
+ - Make sure that the image paths are distincts, because they are used as key in the cache manage.
+ - Make sure that the image file exist while table is used, else just will show an black box in the cell.
