@@ -24,7 +24,7 @@ then asign the ImageRender and set your row height
   }
 ```
 
-For asign an image for you table just need set the path image, **do not asign an ImageIcon**.
+For asign an image for you table just need set the image path, **do not asign an ImageIcon**.
 
 ```
 table.addRow(new Object[]{
@@ -32,3 +32,6 @@ table.addRow(new Object[]{
     "Path\\TO\\YOUR\\IMAGE\\"
 });
 ```
+##Notes##
+Make sure that the image paths are distincts, because they are used as key in the cache manage.
+Make sure that the image file exist while table is used, else just will show an black box in the cell.
