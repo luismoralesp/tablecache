@@ -3,7 +3,7 @@ Memory manager using cache for JTable ImageRenderer
 
 ##Implementation##
 
-Just define an model for your JTable
+Just define a model for your JTable
 
 *For example:*
 ```java
@@ -24,7 +24,7 @@ then asign the ImageRender and set your row height
   }
 ```
 
-For asign an image for you table just need set the image path, **do not asign an ImageIcon**.
+For asign an image for your table just need to set the image path, **do not asign an ImageIcon**.
 
 ```java
 table.addRow(new Object[]{
@@ -33,5 +33,7 @@ table.addRow(new Object[]{
 });
 ```
 ##Notes##
- - Make sure that the image paths are distincts, because they are used as key in the cache manage.
- - Make sure that the image file exist while table is used, else just will show an black box in the cell.
+ - Make sure that the images paths are distincts, because they are used as key in the cache management.
+ - Make sure that the image file exist while table is used, else just will show a black box in the cell.
+ - 
+ Thanks and Fork!
