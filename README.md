@@ -1,4 +1,4 @@
-# tablecache
+# TableCache
 Memory manager using cache for JTable ImageRenderer
 
 ##Implementation##
