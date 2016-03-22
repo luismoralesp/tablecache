@@ -35,5 +35,5 @@ table.addRow(new Object[]{
 ##Notes##
  - Make sure that the images paths are distincts, because they are used as key in the cache management.
  - Make sure that the image file exist while table is used, else just will show a black box in the cell.
- - 
+ 
  Thanks and Fork!
